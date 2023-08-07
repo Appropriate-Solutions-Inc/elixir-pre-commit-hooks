@@ -12,4 +12,5 @@ repos:
     hooks:
         - id: pymarkdown
           # Ignore: line length, list indents, ol prefix restart.
-          args: ["-d MD013,MD007,MD029", scan, ./]
+          # Dollar signs before commands without showing output.
+          args: ["-d MD013,MD007,MD029,MD014", scan, ./]
