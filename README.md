@@ -38,6 +38,9 @@ Runs `mix credo` when an `.ex` file is included in the commit.
 
 ### `mix-dialyxir`
 
+Runs `mix dialyxir` when an `.ex` file is included in the commit.
+Use with caution as the analysis can be slow.
+
 ## Passing Options to Hooks
 
 If you want to pass additional options to the hook, you can include an `args` key in the hook's configuration in .pre-commit-config.yaml. The value of the key should be a list of the arguments you want to pass.
