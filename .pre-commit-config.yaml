@@ -1,0 +1,15 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.1.0
+    hooks:
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: mixed-line-ending
+        args: [--fix=lf]
+
+  - repo: https://github.com/jackdewinter/pymarkdown
+    rev: v0.9.12
+    hooks:
+        - id: pymarkdown
+          # Ignore: line length, list indents, ol prefix restart.
+          args: ["-d MD013,MD007,MD029", scan, ./]

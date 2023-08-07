@@ -1,0 +1,18 @@
+- id: mix-format
+  name: mix format
+  description: Formats Elixir files with mix format.
+  language: system
+  entry: mix format
+  files: \.ex$
+- id: mix-test
+  name: mix test
+  description: Runs Elixir tests with mix test.
+  language: system
+  entry: mix test
+  files: \.ex$
+- id: mix-credo
+  name: mix credo
+  description: Runs credo static analysis with mix credo
+  language: system
+  entry: mix credo
+  files: \.ex$
