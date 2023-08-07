@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v1.0.1 - 2023-08-07
+
+- Add Dialyxir
+
 ## v1.0.0 - 2023-08-07
 
 - Tested in our own repository.

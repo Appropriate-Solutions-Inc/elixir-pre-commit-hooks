@@ -14,7 +14,14 @@
 
 - id: mix-credo
   name: mix credo
-  description: Runs credo static analysis with mix credo
+  description: Runs credo static analysis with mix credo.
   language: system
   entry: mix credo
+  files: \.ex$
+
+- id: mix-dialyxir
+  name: mix dialyxir
+  description: Runs the dialyxir static analysis tool. Use with caution as can be slow.
+  language: system
+  entry: mix dialyxir
   files: \.ex$
