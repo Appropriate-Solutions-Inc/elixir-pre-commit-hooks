@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v1.0.2 - 2023-08-07
+
+- Add escript.build
+
 ## v1.0.1 - 2023-08-07
 
 - Add Dialyxir

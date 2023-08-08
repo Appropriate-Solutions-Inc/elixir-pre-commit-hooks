@@ -41,6 +41,11 @@ Runs `mix credo` when an `.ex` file is included in the commit.
 Runs `mix dialyxir` when an `.ex` file is included in the commit.
 Use with caution as the analysis can be slow.
 
+## `mix-escript-build`
+
+Runs `mix escript.build` when an `.ex` or `exs` file is include in the commit.
+Only useful when a project contains command line scripts.
+
 ## Passing Options to Hooks
 
 If you want to pass additional options to the hook, you can include an `args` key in the hook's configuration in .pre-commit-config.yaml. The value of the key should be a list of the arguments you want to pass.

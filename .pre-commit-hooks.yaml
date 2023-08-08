@@ -25,3 +25,10 @@
   language: system
   entry: mix dialyxir
   files: \.ex$
+
+- id: mix-escript-build
+  name: mix escript.build
+  description: Build escript when script or module source changes.
+  language: system
+  entry: mix escript.build
+  files: \.exs?$
