@@ -41,6 +41,10 @@ Runs `mix credo` when an `.ex` file is included in the commit.
 Runs `mix dialyxir` when an `.ex` file is included in the commit.
 Use with caution as the analysis can be slow.
 
+### `mix-sobelow`
+
+Runs `mix sobelow` when an `.ex` or `.exs` file is included in the commit.
+
 ## `mix-escript-build`
 
 Runs `mix escript.build` when an `.ex` or `exs` file is include in the commit.
