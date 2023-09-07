@@ -32,3 +32,10 @@
   language: system
   entry: mix escript.build
   files: \.exs?$
+
+- id: mix-sobelow
+  name: mix sobelow
+  description: Runs Sobelow security scanner.
+  language: system
+  entry: mix sobelow
+  files: \.exs?$
